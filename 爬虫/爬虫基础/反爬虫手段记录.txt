@@ -3,3 +3,8 @@
      headers = {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
        }
+
+
+2. 检测请求的来源（请求头中的Referer属性）（这个请求发送之前在打开哪一个页面）  ---》 防盗链接
+     解决方案：抓包看一下请求的时候，浏览器传递的Referer值是什么，然后在代码中的请求头里面加上对应的值
+     Referer: https://passport.china.com/logon
