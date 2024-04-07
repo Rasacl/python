@@ -1,0 +1,5 @@
+1 检测请求头中的User-Agent是否是一个正常浏览器的User-Agent
+     解决方案： 在请求时自己设置请求头中的User-Agent
+     headers = {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+       }
