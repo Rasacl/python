@@ -16,7 +16,7 @@ driver.find_element(By.XPATH, '//*[@id="55"]').send_keys("@Chen991029")
 
 driver.find_element(By.ID, 'index_logonid').click()
 
-time.sleep(2)
+time.sleep(2) 
 
 driver.quit()
 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // function Debuggering(){
+    //     // 通过定时任务 每隔一段时间检查一次是否打开了调试器
+    //     debugger
+    //     setInterval(Debuggering, 1000)
+    // }
+    //
+    // Debuggering()
+
+    function startClearConsole(){
+        // 没个一秒清除一次控制台呢绒
+        setInterval(function () {
+            console.clear()
+        },100)
+    }
+
+    startClearConsole()
+</script>
+</body>
+</html>
